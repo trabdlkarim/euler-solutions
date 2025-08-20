@@ -14,7 +14,6 @@ def fibonacci(n=10):
 def compute():
     sum = 0
     n = 1
-    term = 1
     while(True): 
         term = fibonacci(n)
         if term > 4000000:
